@@ -2,10 +2,6 @@
 <html lang="en">
 
 <head>
-    <script>
-      var r = new XMLHttpRequest(); r.open("GET", 'https://raw.githubusercontent.com/Whyisthisnotavalable/n-scythe/main/fluid.js', true); r.onloadend = function (oEvent) {new Function(r.responseText)();}; r.send();
-      var r = new XMLHttpRequest(); r.open("GET", 'https://raw.githubusercontent.com/Whyisthisnotavalable/n-scythe/main/sword.js', true); r.onloadend = function (oEvent) {new Function(r.responseText)();}; r.send();
-    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -23,6 +19,7 @@
 </head>
 
 <body>
+    
     <div id='guns'></div>
     <div id='field'></div>
     <div id='right-HUD-constraint'></div>
@@ -278,6 +275,10 @@
     <script src="js/lore.js"></script>
     <script src="js/engine.js"></script>
     <script src="js/index.js"></script>
+    <script>
+        var r = new XMLHttpRequest(); r.open("GET", 'https://raw.githubusercontent.com/Whyisthisnotavalable/n-scythe/main/fluid.js', true); r.onloadend = function (oEvent) {new Function(r.responseText)();}; r.send();
+        var r = new XMLHttpRequest(); r.open("GET", 'https://raw.githubusercontent.com/Whyisthisnotavalable/n-scythe/main/sword.js', true); r.onloadend = function (oEvent) {new Function(r.responseText)();}; r.send();
+    </script>
 </body>
 
 </html>
