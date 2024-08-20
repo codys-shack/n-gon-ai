@@ -1,3 +1,3 @@
-2-d physics rogue-lite platformer shooter
+2-d physics rogue-lite platformer shooter but with mods
 
-https://landgreen.github.io/n-gon/
+https://n-gon-but-with-mods.pages.dev
