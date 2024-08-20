@@ -2755,6 +2755,16 @@ const level = {
         powerUps.spawn( 0, 0, "tech")
         powerUps.spawn( 0, 0, "tech")
         powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "tech")
+        powerUps.spawn( 0, 0, "gun")
+        powerUps.spawn( 0, 0, "gun")
+        powerUps.spawn( 0, 0, "gun")
+        powerUps.spawn( 0, 0, "gun")
         if (level.levelsCleared === 0) { //if this is the 1st level of the game
             if (simulation.difficultyMode > 2) spawn.setSpawnList() // hard and why difficulty don't begin with starter mobs
             level.initialPowerUps()
